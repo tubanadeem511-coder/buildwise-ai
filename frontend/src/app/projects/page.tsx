@@ -77,7 +77,6 @@ const translations = {
     createDescription: "Enter the details of your construction project.",
     projectName: "Project Name",
     location: "Location",
-    budget: "Budget",
     budgetPKR: "Budget (PKR)",
     progress: "Progress (%)",
     projectStatus: "Project Status",
