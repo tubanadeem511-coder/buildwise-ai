@@ -10,7 +10,8 @@ type Message = {
 };
 
 const API_URL =
-  process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8001";
+  process.env.NEXT_PUBLIC_API_URL ||
+  "https://buildwise-ai-production-f4413c39.up.railway.app";
 
 export default function Chatbot() {
   const [isOpen, setIsOpen] = useState(false);
