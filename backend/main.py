@@ -28,17 +28,18 @@ app = FastAPI(
 # CORS CONFIGURATION
 # ==========================================
 
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "https://buildwise-ai-eight.vercel.app/",
+        "https://buildwise-5rw2r7o51-tuba-nadeem.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 
 
